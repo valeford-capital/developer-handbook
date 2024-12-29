@@ -28,7 +28,7 @@ The Developer Handbook is designed to:
 
 ## Brand Guidelines
 
-Refer to the **[Valeford Brand Guidelines](resources/valeford_brand_guidelines.pdf)** for design and branding standards. This document covers logo usage, typography, color palettes, and more.
+Refer to the **[Valeford Brand Guidelines](resources/brand_guidelines.pdf)** for design and branding standards. This document covers logo usage, typography, color palettes, and more.
 
 ---
 

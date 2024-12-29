@@ -1,5 +1,7 @@
 # Developer Handbook
 
+<img src="banner.png">
+
 Welcome to Valeford Capital's **Developer Handbook**. This repository serves as a central guide for our coding standards, best practices, and development processes. By following these guidelines, we ensure consistency, maintainability, and high-quality code across all projects.
 
 ---

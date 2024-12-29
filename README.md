@@ -10,6 +10,7 @@ Welcome to Valeford Capital's **Developer Handbook**. This repository serves as 
 
 - [Purpose](#purpose)
 - [Coding Style Guides](#coding-style-guides)
+- [Brand Guidelines](#brand-guidelines)
 - [Tools](#tools)
 - [Contributing](#contributing)
 - [License](#license)
@@ -22,6 +23,12 @@ The Developer Handbook is designed to:
 - Ensure **clarity and consistency** in all code written at Valeford Capital.
 - Help new developers quickly onboard and align with our best practices.
 - Provide a living document that evolves with our team and technologies.
+
+---
+
+## Brand Guidelines
+
+Refer to the **[Valeford Brand Guidelines](resources/valeford_brand_guidelines.pdf)** for design and branding standards. This document covers logo usage, typography, color palettes, and more.
 
 ---
 

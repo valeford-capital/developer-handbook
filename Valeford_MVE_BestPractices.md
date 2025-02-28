@@ -39,77 +39,75 @@ The final MVE reports should:
 - Follow a **standard structure** (sections, rating, references).
 - Be **highly professional** (consistent branding, polished layout, references).
 - Provide **actionable insights** (Continue, Hold, Dismiss) based on clear research.
+- Contain **full, detailed research**, not summaries. Every report must be as comprehensive as the previously completed research document and should not omit any relevant details.
 
 ## Overview of the Workflow
-1. **Draft Research Content**: Gather market data, competitor info, cost estimates, etc.  
-2. **Build the LaTeX Document**: Use our standard template (skeleton `.tex` file) that enforces consistent structure and styles.  
-3. **Cite Sources Appropriately**: Use footnotes for smaller documents; or BibTeX for more detailed references.  
-4. **Review and Finalize**: Generate the PDF, review for clarity, ensure consistent referencing.  
+1. **Draft Research Content**: Gather market data, competitor info, cost estimates, etc. Ensure that every section is fully developed, with complete research details, and no summary-style overviews.
+2. **Build the LaTeX Document**: Use our standard template (skeleton `.tex` file) that enforces consistent structure and styles.
+3. **Cite Sources Appropriately**: Use footnotes for smaller documents; or BibTeX for more detailed references.
+4. **Review and Finalize**: Generate the PDF, review for clarity, ensure consistent referencing.
 5. **Versioning**: Tag or label each final version with a date (and possibly a version number).
 
 ## Core Document Structure
 All MVE reports follow a **common set of sections** to ensure uniformity.
 
 ### Title Page
-- **Report Title** (e.g., “Market Validation and Success Evaluation for [Project X]”)  
-- **Subtitle** (optional, e.g., “Draft Report” / “Phase 1 Analysis”)  
-- **Author** (Valeford Capital UG or individual team member)  
-- **Date** (and version number, if relevant)  
+- **Report Title** (e.g., “Market Validation and Success Evaluation for [Project X]”)
+- **Subtitle** (optional, e.g., “Draft Report” / “Phase 1 Analysis”)
+- **Author** (Valeford Capital UG or individual team member)
+- **Date** (and version number, if relevant)
 - **Company Logo** or other branding elements
 
 ### Table of Contents
 For any report longer than ~5 pages, include a `\tableofcontents` (LaTeX) after the title. This aids navigation.
 
 ### Executive Summary
-Give a **concise overview** (often a single page or less):
-- Key market insights and main findings  
-- Final success rating (0–10)  
-- Clear recommendation (“Continue / Hold / Dismiss”)  
+Give a **concise overview**, but remember: the full report should not be a summary. Every section must be presented in complete detail.
+- Key market insights and main findings
+- Final success rating (0–10)
+- Clear recommendation (“Continue / Hold / Dismiss”)
 
 ### Introduction / Context
 Explain:
-- **Why** you’re conducting this validation (the purpose or impetus).  
-- **Scope** of the report (e.g., focusing on a specific app feature).  
+- **Why** you’re conducting this validation (the purpose or impetus).
+- **Scope** of the report (e.g., focusing on a specific app feature).
 - The **target audience** (internal decision-makers, potential investors, etc.).
 
 ### Market Validation
-The core research section. Common subsections:
-1. **Potential Demand**: Stats or data indicating there’s a need.  
-2. **Competitor Analysis**: List direct vs. indirect competitors, note their strengths/weaknesses.  
-3. **User Feedback**: Summaries from interviews, surveys, or forum reviews (if available).  
-4. **Trends and Insights**: Market growth rates, user adoption patterns, any relevant charts.  
+The core research section. **This must be as detailed as the previously completed research document and not a summary.** Common subsections:
+1. **Potential Demand**: Stats or data indicating there’s a need.
+2. **Competitor Analysis**: List direct vs. indirect competitors, note their strengths/weaknesses.
+3. **User Feedback**: Summaries from interviews, surveys, or forum reviews (if available).
+4. **Trends and Insights**: Market growth rates, user adoption patterns, any relevant charts.
 
 ### Cost Analysis
-- **Hosting and Infrastructure**: Potential monthly or annual costs.  
-- **Data Privacy Compliance** (GDPR, etc.).  
-- **Maintenance & Support** overhead.  
+- **Hosting and Infrastructure**: Potential monthly or annual costs.
+- **Data Privacy Compliance** (GDPR, etc.).
+- **Maintenance & Support** overhead.
 - Any **other relevant operational expenses** (optional marketing spend, etc.).
 
 ### Success Evaluation
 Use **Valeford’s internal 0–10 rating**. Typically, five criteria:
-1. **Market Viability** (0–2 points)  
-2. **Technical Feasibility** (0–2 points)  
-3. **Brand & Ethical Fit** (0–1 point)  
-4. **ROI & Scalability** (0–3 points)  
-5. **Competitive Edge** (0–2 points)  
+1. **Market Viability** (0–2 points)
+2. **Technical Feasibility** (0–2 points)
+3. **Brand & Ethical Fit** (0–1 point)
+4. **ROI & Scalability** (0–3 points)
+5. **Competitive Edge** (0–2 points)
 
 Sum up the score out of 10. Then interpret:
-- **8–10** → Continue (high potential)  
-- **4–7** → Hold (needs more data or refinement)  
+- **8–10** → Continue (high potential)
+- **4–7** → Hold (needs more data or refinement)
 - **0–3** → Dismiss (not worth pursuing)
 
 ### Conclusion and Recommendation
-- Summarize key findings.  
-- State the recommendation (Continue/Hold/Dismiss) clearly.  
+- Summarize key findings.
+- State the recommendation (Continue/Hold/Dismiss) clearly.
 - Provide **next steps** (e.g., “Conduct a pilot,” “Gather more user feedback,” “Pivot approach,” etc.).
 
 ### References / Appendices
-- **References**: If using footnotes, they’ll appear at the bottom of each page, or at the end of the document. If using BibTeX, you’ll have a separate bibliography section.  
+- **References**: If using footnotes, they’ll appear at the bottom of each page, or at the end of the document. If using BibTeX, you’ll have a separate bibliography section.
 - **Appendices**: Extra data (graphs, raw interview transcripts, etc.) to avoid cluttering the main text.
 
-## Citation and References
+## Final Note
+Every MVE Report must be as detailed and comprehensive as our prior research documents. **Summarized versions are not acceptable.** Ensure that all relevant information is included, even if it makes the document longer. The goal is to provide the fullest possible picture for decision-making, leaving no gaps or assumptions unaddressed.
 
-### Footnotes for Quick References
-For smaller or internal “lighter” documents:
-```latex
-According to a recent survey, 64% of adults drink coffee daily.\footnote{Statista Coffee Survey 2025, link: https://www.statista.com/coffee}
